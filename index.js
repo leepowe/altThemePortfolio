@@ -33,6 +33,10 @@ function setTheme(mode){
         document.getElementById('theme-style').href = 'style/purple.css';
     }
 
+    if (mode == 'large') {
+        document.getElementById('theme-style').href = 'style/large.css';
+    }
+
     localStorage.setItem('theme', mode);
 }
 
